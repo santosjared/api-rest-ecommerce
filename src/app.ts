@@ -12,4 +12,4 @@ app.use(router)
 
 db().then(()=> console.log('conexion to database Socceces'))
 
-app.listen(PORT, ()=> console.log(`Listo por el puerto ${PORT}`))
+app.listen(PORT, ()=> console.log(`Servidor Corriendo en el puerto ${PORT}`))
